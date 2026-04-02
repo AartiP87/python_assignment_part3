@@ -1,0 +1,2 @@
+Running code
+SyntaxError: invalid syntax (<exec>, line 1)

@@ -1,2 +1,3 @@
-Running code
-SyntaxError: invalid syntax (<exec>, line 1)
+===== ERROR LOG =====
+[2026-04-02 17:19:24] ERROR in forced_connection: HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff302b76540>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno -2] Name or service not known)"))
+[2026-04-02 17:19:24] ERROR in forced_404: 404 Not Found for product ID 999
